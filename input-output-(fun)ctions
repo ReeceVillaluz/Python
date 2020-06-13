@@ -1,0 +1,28 @@
+def real_code(favorite_language= "Python"):
+    print("Your favorite language is, ", favorite_language, "!? ", "I canNOT believe this!??", sep="")
+
+def this_seperates(s="==========="):
+    print("===========")
+
+def congratulations(favorite_language= "Python"):
+    print('Congrats on your favorite programming language, ',favorite_language, "!", sep="")
+    print("Now that you know your new fav, come learn more, with, ", favorite_language, " on Udemy! ", sep="")
+    this_seperates()
+def to_prove_my_skill(favorite_language= "Python"):
+    ask_name= input("I wish you farewell on your journey! BUT before you leave... would you mind sharing your name with us? ")
+    print("Goodbye, ", ask_name, "! And good luck on your journey to learning, ", favorite_language, "!! ", " We're sorry to see you go..", sep="")
+    this_seperates()
+    print("Last thing,", ask_name, end="")
+    print(":")
+    newsletter= input("Would you care to join our monthly newsletter? It's amazing!!! Huh? ")
+    print(newsletter, "!?", sep="")
+    print("Ok then. Thank You! ")
+    print("Exiting Program...")
+
+def main():
+    favorite_language = input("What is your favorite programming language? ")
+    real_code(favorite_language)
+    this_seperates()
+    congratulations(favorite_language)
+    to_prove_my_skill(favorite_language)
+main()
